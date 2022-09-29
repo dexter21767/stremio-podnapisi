@@ -1,0 +1,28 @@
+{
+    "id": "community.podnapisi",
+    "version": "0.0.1",
+    "name": "podnapisi subtitles by dexter21767",
+    "description": "Addon for getting subtitles from podnapisi, by Dexter21767.",
+    "logo": "https://www.podnapisi.net/static/favicon.ico",
+    "background": "https://cdn.discordapp.com/attachments/669540503674421268/1025051084126953513/i-like-my-subtitles-like-i-like-my-pillows-extra-soft.jpg",
+    "contactEmail": "ahmidiyasser@gmail.com",
+    "catalogs": [],
+    "resources": [{
+            "name": "subtitles",
+            "types": [
+                "movie",
+                "series"
+            ],
+            "idPrefixes": [
+                "tt"
+            ]
+        }
+    ],
+    "types": [
+            "subtitles"
+    ],
+    "behaviorHints": {
+        "configurable": true,
+        "configurationRequired": true
+    }
+}
